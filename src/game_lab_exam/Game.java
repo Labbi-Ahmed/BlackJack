@@ -5,7 +5,7 @@ public class Game {
     public DealerTream dealerTream;
     public boolean isGameOver;
 
-    public Game(){
+    public Game(){ 
         player = new Player();
         dealerTream = new DealerTream();
     }
